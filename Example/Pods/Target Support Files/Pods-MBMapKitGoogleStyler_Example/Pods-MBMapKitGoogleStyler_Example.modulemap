@@ -1,0 +1,6 @@
+framework module Pods_MBMapKitGoogleStyler_Example {
+  umbrella header "Pods-MBMapKitGoogleStyler_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

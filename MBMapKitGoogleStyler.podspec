@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MBMapKitGoogleStyler'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MBMapKitGoogleStyler.'
+  s.summary          = 'Google Map JSON styles in MapKit (Swift not required).'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Objective-C port of MapKitGoogleStyler.
+Blog post here: https://medium.com/@ortizfernandomartin/customize-mapkits-mkmapview-with-google-maps-styling-wizard-a5dcc095e19f#.zgj20kkvk
                        DESC
 
   s.homepage         = 'https://github.com/jmbiggs/MBMapKitGoogleStyler'
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

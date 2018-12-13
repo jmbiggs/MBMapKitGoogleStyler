@@ -1,0 +1,16 @@
+PODS:
+  - MBMapKitGoogleStyler (0.1.0)
+
+DEPENDENCIES:
+  - MBMapKitGoogleStyler (from `../`)
+
+EXTERNAL SOURCES:
+  MBMapKitGoogleStyler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MBMapKitGoogleStyler: 7a76a4f73a1f5d1f560ed4902b2a31605f68e58c
+
+PODFILE CHECKSUM: 11b1eba700f13334f2bf6e6c6785751e87da6a46
+
+COCOAPODS: 1.5.3
