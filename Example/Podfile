@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MBMapKitGoogleStyler_Example' do
+  pod 'MBMapKitGoogleStyler', :path => '../'
+
+  target 'MBMapKitGoogleStyler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
