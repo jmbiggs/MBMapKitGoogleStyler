@@ -11,13 +11,9 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface MBMapKitGoogleStyler : NSObject
 
-+ (MKTileOverlay*)buildOverlayWithJSONArray:(NSArray<NSDictionary<NSString*,id>*>*)json;
-+ (MKTileOverlay*)buildOverlayWithJSONFileURL:(NSURL*)url;
++ (nonnull MKTileOverlay*)buildOverlayWithJSONArray:(nonnull NSArray<NSDictionary<NSString*,id>*>*)json;
++ (nonnull MKTileOverlay*)buildOverlayWithJSONFileURL:(nonnull NSURL*)url;
 
 @end
-
-NS_ASSUME_NONNULL_END

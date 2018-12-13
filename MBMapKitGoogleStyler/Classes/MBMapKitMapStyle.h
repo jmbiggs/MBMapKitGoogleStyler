@@ -11,13 +11,9 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface MBMapKitMapStyle : NSObject
 
-- (NSString*)urlString;
-- (instancetype)initWithJSON:(NSArray<NSDictionary<NSString*,id>*>*)json;
+- (nonnull NSString*)urlString;
+- (nonnull instancetype)initWithJSON:(NSArray<NSDictionary<NSString*,id>*>*)json;
 
 @end
-
-NS_ASSUME_NONNULL_END

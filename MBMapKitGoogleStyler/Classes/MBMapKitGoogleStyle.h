@@ -76,13 +76,9 @@ typedef NS_ENUM(NSInteger, StylerType) {
 StylerType stylerTypeFromString(NSString * string);
 NSString * convertedStringFromStylerType(StylerType stylerType);
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface MBMapKitGoogleStyle : NSObject
 
-- (instancetype)initWithJSON:(NSDictionary*)json;
-- (NSString*)encodedStyles;
+- (nonnull instancetype)initWithJSON:(nonnull NSDictionary*)json;
+- (nonnull NSString*)encodedStyles;
 
 @end
-
-NS_ASSUME_NONNULL_END
