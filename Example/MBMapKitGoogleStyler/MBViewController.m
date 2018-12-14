@@ -33,9 +33,10 @@
 }
 
 - (void)configureTileOverlay {
+    // import the JSON file
     NSString * overlayFileURLString = [[NSBundle mainBundle] pathForResource:@"MapStyle" ofType:@"json"];
-    NSURL * overlayFileURL = [NSURL fileURLWithPath:overlayFileURLString];
     
+    NSURL * overlayFileURL = [NSURL fileURLWithPath:overlayFileURLString];
     MKTileOverlay * tileOverlay = [MBMapKitGoogleStyler buildOverlayWithJSONFileURL:overlayFileURL];
     [_mapView addOverlay:tileOverlay];
 }
