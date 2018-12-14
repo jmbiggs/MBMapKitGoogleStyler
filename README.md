@@ -24,52 +24,52 @@ To easily get styling on an MKMapView:
 2. Put the JSON in a plain text file in your project.  You can name it whatever you want, in this example I'll call it 'MapStyle.json'.
 
 3. Import MBMapKitGoogleStyler into your view controller
-    ```objective-c
-    #import <MBMapKitGoogleStyler/MBMapKitGoogleStyler.h>
-   ```
+```objective-c
+#import <MBMapKitGoogleStyler/MBMapKitGoogleStyler.h>
+```
 
 4. Make sure your view controller is a MKMapViewDelegate, and implement -mapViewrendererForOverlay
 
     Interface declaration:
-    ```objective-c
-        @interface MBViewController () <MKMapViewDelegate>
-    ```
+```objective-c
+    @interface MBViewController () <MKMapViewDelegate>
+```
 
     Set delegate on MKMapView (in -viewDidLoad):
-    ```objective-c
-        [_mapView setDelegate:self];
-    ```
+```objective-c
+    [_mapView setDelegate:self];
+```
 
     Implement delegate method:
-    ```objective-c
-        - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
-        {
-            MKTileOverlay * tileOverlay = (MKTileOverlay*)overlay;
-            if (tileOverlay) {
-                return [[MKTileOverlayRenderer alloc] initWithTileOverlay:tileOverlay];
-            } else {
-                return [[MKOverlayRenderer alloc] initWithOverlay:overlay];
-            }
+```objective-c
+    - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
+    {
+        MKTileOverlay * tileOverlay = (MKTileOverlay*)overlay;
+        if (tileOverlay) {
+            return [[MKTileOverlayRenderer alloc] initWithTileOverlay:tileOverlay];
+        } else {
+            return [[MKOverlayRenderer alloc] initWithOverlay:overlay];
         }
-    ```
+    }
+```
 
 5. Write a function to add the tile overlay to your Map View (make sure you import the JSON file as you named it)
-    ```objective-c
-    - (void)configureTileOverlay {
-        // import the JSON file
-        NSString * overlayFileURLString = [[NSBundle mainBundle] pathForResource:@"MapStyle" ofType:@"json"];
+```objective-c
+- (void)configureTileOverlay {
+    // import the JSON file
+    NSString * overlayFileURLString = [[NSBundle mainBundle] pathForResource:@"MapStyle" ofType:@"json"];
 
-        NSURL * overlayFileURL = [NSURL fileURLWithPath:overlayFileURLString];
-        MKTileOverlay * tileOverlay = [MBMapKitGoogleStyler buildOverlayWithJSONFileURL:overlayFileURL];
-        [_mapView addOverlay:tileOverlay];
-    }
-    ```
+    NSURL * overlayFileURL = [NSURL fileURLWithPath:overlayFileURLString];
+    MKTileOverlay * tileOverlay = [MBMapKitGoogleStyler buildOverlayWithJSONFileURL:overlayFileURL];
+    [_mapView addOverlay:tileOverlay];
+}
+```
 
     Call it after setting the delegate (-viewDidLoad):
-    ```objective-c
-        [_mapView setDelegate:self];
-        [self configureTileOverlay];
-    ```
+```objective-c
+    [_mapView setDelegate:self];
+    [self configureTileOverlay];
+```
 
 ## Requirements
 
