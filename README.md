@@ -32,25 +32,25 @@ To easily get styling on an MKMapView:
 
     Interface declaration:
 ```objective-c
-    @interface MBViewController () <MKMapViewDelegate>
+@interface MBViewController () <MKMapViewDelegate>
 ```
 
-    Set delegate on MKMapView (in -viewDidLoad):
+   Set delegate on MKMapView (in -viewDidLoad):
 ```objective-c
-    [_mapView setDelegate:self];
+[_mapView setDelegate:self];
 ```
 
-    Implement delegate method:
+   Implement delegate method:
 ```objective-c
-    - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
-    {
-        MKTileOverlay * tileOverlay = (MKTileOverlay*)overlay;
-        if (tileOverlay) {
-            return [[MKTileOverlayRenderer alloc] initWithTileOverlay:tileOverlay];
-        } else {
-            return [[MKOverlayRenderer alloc] initWithOverlay:overlay];
-        }
+- (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
+{
+    MKTileOverlay * tileOverlay = (MKTileOverlay*)overlay;
+    if (tileOverlay) {
+        return [[MKTileOverlayRenderer alloc] initWithTileOverlay:tileOverlay];
+    } else {
+        return [[MKOverlayRenderer alloc] initWithOverlay:overlay];
     }
+}
 ```
 
 5. Write a function to add the tile overlay to your Map View (make sure you import the JSON file as you named it)
@@ -65,10 +65,10 @@ To easily get styling on an MKMapView:
 }
 ```
 
-    Call it after setting the delegate (-viewDidLoad):
+   Call it after setting the delegate (-viewDidLoad):
 ```objective-c
-    [_mapView setDelegate:self];
-    [self configureTileOverlay];
+[_mapView setDelegate:self];
+[self configureTileOverlay];
 ```
 
 ## Requirements
