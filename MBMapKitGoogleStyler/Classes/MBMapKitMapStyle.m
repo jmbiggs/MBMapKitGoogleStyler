@@ -54,7 +54,7 @@ const NSString * prefix = @"&apistyle=";
     }
 }
 
-// MARK: utility
+#pragma mark - utility
 
 // cite: https://stackoverflow.com/questions/6127638/nsarray-equivalent-of-map
 - (NSMutableArray *)mapArray:(NSArray*)array usingBlock:(id (^)(id, NSUInteger))block

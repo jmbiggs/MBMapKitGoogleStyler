@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "MBMapKitGoogleStyle.h"
+#import "MBMapKitGoogleStyler.h"
+#import "MBMapKitMapStyle.h"
 
 FOUNDATION_EXPORT double MBMapKitGoogleStylerVersionNumber;
 FOUNDATION_EXPORT const unsigned char MBMapKitGoogleStylerVersionString[];

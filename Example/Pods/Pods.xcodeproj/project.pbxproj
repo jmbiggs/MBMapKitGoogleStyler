@@ -7,33 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0983418C69DCCE4CF0E0C2A749AAC000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		12D242E5C3F1E062876BE77704E75B2D /* Pods-MBMapKitGoogleStyler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A47EBCC889C37AF28AC2C05D5646F26 /* Pods-MBMapKitGoogleStyler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FB82F18165F6845BFA229A9DD15B032 /* MBMapKitGoogleStyler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11897FAC4D7F8989C1D36B59E006A890 /* MBMapKitGoogleStyler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39A590100078426614B22CDD7497E92F /* MBMapKitGoogleStyler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F88EBBB43F78F74867D0642AF1177DD0 /* MBMapKitGoogleStyler-dummy.m */; };
-		4C9144C621C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144C421C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h */; };
-		4C9144C721C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144C421C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h */; };
-		4C9144C821C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144C421C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h */; };
-		4C9144C921C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144C521C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m */; };
-		4C9144CA21C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144C521C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m */; };
-		4C9144CB21C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144C521C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m */; };
-		4C9144CE21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144CC21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h */; };
-		4C9144CF21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144CC21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h */; };
-		4C9144D021C31E8100A2E9B0 /* MBMapKitGoogleStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144CC21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h */; };
-		4C9144D121C31E8100A2E9B0 /* MBMapKitGoogleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144CD21C31E8100A2E9B0 /* MBMapKitGoogleStyle.m */; };
-		4C9144D221C31E8100A2E9B0 /* MBMapKitGoogleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144CD21C31E8100A2E9B0 /* MBMapKitGoogleStyle.m */; };
-		4C9144D321C31E8100A2E9B0 /* MBMapKitGoogleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144CD21C31E8100A2E9B0 /* MBMapKitGoogleStyle.m */; };
-		4C9144D621C31E9A00A2E9B0 /* MBMapKitMapStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144D421C31E9A00A2E9B0 /* MBMapKitMapStyle.h */; };
-		4C9144D721C31E9A00A2E9B0 /* MBMapKitMapStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144D421C31E9A00A2E9B0 /* MBMapKitMapStyle.h */; };
-		4C9144D821C31E9A00A2E9B0 /* MBMapKitMapStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9144D421C31E9A00A2E9B0 /* MBMapKitMapStyle.h */; };
-		4C9144D921C31E9A00A2E9B0 /* MBMapKitMapStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144D521C31E9A00A2E9B0 /* MBMapKitMapStyle.m */; };
-		4C9144DA21C31E9A00A2E9B0 /* MBMapKitMapStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144D521C31E9A00A2E9B0 /* MBMapKitMapStyle.m */; };
-		4C9144DB21C31E9A00A2E9B0 /* MBMapKitMapStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9144D521C31E9A00A2E9B0 /* MBMapKitMapStyle.m */; };
+		1A20B9F75C04114FE1C94BEA3D1CC0D8 /* MBMapKitGoogleStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4946E1B5E5C6B57DD0DCAD489B6690E1 /* MBMapKitGoogleStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B75BE9264C816F1831A52297819645A /* MBMapKitMapStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2CAA62AFFFBA988BF09941FF6D2398 /* MBMapKitMapStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9C7BD449F8213730168CBC76374512 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E061A876F428A8E8C9F0CD173365A7 /* MapKit.framework */; };
+		574DEB0F8B52B64839A10C5E6645AC3B /* MBMapKitGoogleStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = A86C308F1944ED1DBE0ABA8E5A7832B0 /* MBMapKitGoogleStyler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		606CB6BC12EEC46B7A6AC777EBA67793 /* Pods-MBMapKitGoogleStyler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9319B820C619E3192F216D3D705583 /* Pods-MBMapKitGoogleStyler_Example-dummy.m */; };
-		76376C536FA7F23DFBA9D5C985A9D668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		A4CF668E002E4C0C12C416D90E1FC531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		76376C536FA7F23DFBA9D5C985A9D668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */; };
+		8DB49AF17D40F67CC41B6D8A914B46CE /* MBMapKitMapStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6993596B37C65CCF5D2645D63DE21966 /* MBMapKitMapStyle.m */; };
+		8E405429C97CD87B5BB24A33DB97663E /* MBMapKitGoogleStyler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A59DFEFD275751B63FF308609CEDD54D /* MBMapKitGoogleStyler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F56B05577DDB3894F94A03FB55D580 /* MBMapKitGoogleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 581B01F7AA4169937123B16AC9CC734D /* MBMapKitGoogleStyle.m */; };
+		A4CF668E002E4C0C12C416D90E1FC531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */; };
+		B303117F74E442B4F7DC2BBBE2143335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */; };
+		D79ED7B7798D179B6A9470E2987449B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1899DF19920E20BF9EE667803725971 /* UIKit.framework */; };
 		DF812DA78EAB19729C713AD60436868A /* Pods-MBMapKitGoogleStyler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A3ABC444FE4CE9AC7489DB563DF076 /* Pods-MBMapKitGoogleStyler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2D85EEBC6AC34344C1CD05D7D21645 /* MBMapKitGoogleStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3ED5058FEA5B243DD1B15BD9E43051 /* MBMapKitGoogleStyler.m */; };
 		F9DBF4D77D32B165E3A4666DB62F675F /* Pods-MBMapKitGoogleStyler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E65C5C7A61B2CBA8A753825E25CE9D0 /* Pods-MBMapKitGoogleStyler_Tests-dummy.m */; };
+		FB21C6173A00827638726FB0C0E52E6E /* MBMapKitGoogleStyler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C6B8CBCB06051D93529BCE2FF0AC98 /* MBMapKitGoogleStyler-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,49 +38,51 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B2EA37785A2BC89287FC76D83B6CB12;
+			remoteGlobalIDString = 6FCCD30517C5D4A3C829E6679FD3AE79;
 			remoteInfo = MBMapKitGoogleStyler;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D9CA7919BE1006B8D35A24C83EAA60 /* MBMapKitGoogleStyler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBMapKitGoogleStyler.xcconfig; sourceTree = "<group>"; };
-		021281D83F07DC124BB97209A2BB5D15 /* Pods_MBMapKitGoogleStyler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBMapKitGoogleStyler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BE04477B5C58775E680EC65B448DE3 /* MBMapKitGoogleStyler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MBMapKitGoogleStyler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		021281D83F07DC124BB97209A2BB5D15 /* Pods_MBMapKitGoogleStyler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBMapKitGoogleStyler_Example.framework; path = "Pods-MBMapKitGoogleStyler_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B29E0D11787E9AAFB217462124823A /* Pods-MBMapKitGoogleStyler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBMapKitGoogleStyler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1131D5A4B163BAD9ECF08D8A57D8ED64 /* MBMapKitGoogleStyler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MBMapKitGoogleStyler.podspec; sourceTree = "<group>"; };
-		11897FAC4D7F8989C1D36B59E006A890 /* MBMapKitGoogleStyler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBMapKitGoogleStyler-umbrella.h"; sourceTree = "<group>"; };
+		0836EB028FA8E3DEA555749CEC025CDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3ED5058FEA5B243DD1B15BD9E43051 /* MBMapKitGoogleStyler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBMapKitGoogleStyler.m; path = MBMapKitGoogleStyler/Classes/MBMapKitGoogleStyler.m; sourceTree = "<group>"; };
+		0D2CAA62AFFFBA988BF09941FF6D2398 /* MBMapKitMapStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBMapKitMapStyle.h; path = MBMapKitGoogleStyler/Classes/MBMapKitMapStyle.h; sourceTree = "<group>"; };
 		14B950A1E1E98574804C490A7F72937E /* Pods-MBMapKitGoogleStyler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBMapKitGoogleStyler_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1B52993B648ADD0D9F5963810550A01C /* MBMapKitGoogleStyler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBMapKitGoogleStyler.modulemap; sourceTree = "<group>"; };
-		1E99EA7BDBC897968CD63B8146514CF0 /* MBMapKitGoogleStyler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBMapKitGoogleStyler-prefix.pch"; sourceTree = "<group>"; };
+		17E061A876F428A8E8C9F0CD173365A7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		20296F6B5759F9EC509B8A65B52DB68A /* Pods-MBMapKitGoogleStyler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBMapKitGoogleStyler_Example.modulemap"; sourceTree = "<group>"; };
 		34F26592F05D9283ACCF9E3F5E27A4A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E65C5C7A61B2CBA8A753825E25CE9D0 /* Pods-MBMapKitGoogleStyler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBMapKitGoogleStyler_Tests-dummy.m"; sourceTree = "<group>"; };
-		4C9144C421C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBMapKitGoogleStyler.h; path = MBMapKitGoogleStyler/Classes/MBMapKitGoogleStyler.h; sourceTree = "<group>"; };
-		4C9144C521C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MBMapKitGoogleStyler.m; path = MBMapKitGoogleStyler/Classes/MBMapKitGoogleStyler.m; sourceTree = "<group>"; };
-		4C9144CC21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBMapKitGoogleStyle.h; path = MBMapKitGoogleStyler/Classes/MBMapKitGoogleStyle.h; sourceTree = "<group>"; };
-		4C9144CD21C31E8100A2E9B0 /* MBMapKitGoogleStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MBMapKitGoogleStyle.m; path = MBMapKitGoogleStyler/Classes/MBMapKitGoogleStyle.m; sourceTree = "<group>"; };
-		4C9144D421C31E9A00A2E9B0 /* MBMapKitMapStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MBMapKitMapStyle.h; path = MBMapKitGoogleStyler/Classes/MBMapKitMapStyle.h; sourceTree = "<group>"; };
-		4C9144D521C31E9A00A2E9B0 /* MBMapKitMapStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MBMapKitMapStyle.m; path = MBMapKitGoogleStyler/Classes/MBMapKitMapStyle.m; sourceTree = "<group>"; };
+		4946E1B5E5C6B57DD0DCAD489B6690E1 /* MBMapKitGoogleStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBMapKitGoogleStyle.h; path = MBMapKitGoogleStyler/Classes/MBMapKitGoogleStyle.h; sourceTree = "<group>"; };
 		4D9231B14AE47A73A188ECF16B57E6C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		581B01F7AA4169937123B16AC9CC734D /* MBMapKitGoogleStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBMapKitGoogleStyle.m; path = MBMapKitGoogleStyler/Classes/MBMapKitGoogleStyle.m; sourceTree = "<group>"; };
 		5A47EBCC889C37AF28AC2C05D5646F26 /* Pods-MBMapKitGoogleStyler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBMapKitGoogleStyler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5E01CB71DB9B2A2AB54E8FC7E86F6063 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6993596B37C65CCF5D2645D63DE21966 /* MBMapKitMapStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBMapKitMapStyle.m; path = MBMapKitGoogleStyler/Classes/MBMapKitMapStyle.m; sourceTree = "<group>"; };
 		6A03E2E677C0BA854BA8CBF822CDB825 /* Pods-MBMapKitGoogleStyler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBMapKitGoogleStyler_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6A9319B820C619E3192F216D3D705583 /* Pods-MBMapKitGoogleStyler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBMapKitGoogleStyler_Example-dummy.m"; sourceTree = "<group>"; };
+		6BB3CF28F6FA35DD23C51031300A8042 /* MBMapKitGoogleStyler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBMapKitGoogleStyler.modulemap; sourceTree = "<group>"; };
+		7D81AB6DC42DD4767DDA2DBE857C85B6 /* MBMapKitGoogleStyler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBMapKitGoogleStyler.xcconfig; sourceTree = "<group>"; };
 		7F40CB02814E0E06EF40C301AF8911C1 /* Pods-MBMapKitGoogleStyler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBMapKitGoogleStyler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E59B549AEE1886651BE2DB49A42DBF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2C5ED186B902F79B40917F963012C97 /* Pods-MBMapKitGoogleStyler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBMapKitGoogleStyler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A59DFEFD275751B63FF308609CEDD54D /* MBMapKitGoogleStyler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBMapKitGoogleStyler-umbrella.h"; sourceTree = "<group>"; };
+		A86C308F1944ED1DBE0ABA8E5A7832B0 /* MBMapKitGoogleStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBMapKitGoogleStyler.h; path = MBMapKitGoogleStyler/Classes/MBMapKitGoogleStyler.h; sourceTree = "<group>"; };
+		B9C6B8CBCB06051D93529BCE2FF0AC98 /* MBMapKitGoogleStyler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBMapKitGoogleStyler-dummy.m"; sourceTree = "<group>"; };
 		BB9AD2C740BBDDC5F2F434CFDA457DB6 /* Pods-MBMapKitGoogleStyler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBMapKitGoogleStyler_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD37F7D04165E4A3282025DA02D9ECE7 /* Pods-MBMapKitGoogleStyler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBMapKitGoogleStyler_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C29F446BF14B2230C5551ED4FCB194D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C541C2D6AF29D0F0CBB62DCAFEFF9550 /* Pods-MBMapKitGoogleStyler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBMapKitGoogleStyler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD8330E6BAC62F3990DD504EBD703E40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDAEC6302BA849C1EC1651159D68138 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D087B8553C5FEEC41098B0DDC0793BE1 /* Pods-MBMapKitGoogleStyler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBMapKitGoogleStyler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1899DF19920E20BF9EE667803725971 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4F92B6B33AB8B9E80E54767F9251E5F /* MBMapKitGoogleStyler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBMapKitGoogleStyler-prefix.pch"; sourceTree = "<group>"; };
 		D90AFE57942C8BFD6019E0961C5CC5FA /* Pods-MBMapKitGoogleStyler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBMapKitGoogleStyler_Tests-resources.sh"; sourceTree = "<group>"; };
 		DA02B2E7EC7200955BB27358BEAD3E5E /* Pods-MBMapKitGoogleStyler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MBMapKitGoogleStyler_Tests.modulemap"; sourceTree = "<group>"; };
-		E11510ED1AB1B93042622CBB7BE411B5 /* Pods_MBMapKitGoogleStyler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBMapKitGoogleStyler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E402E392D6C69A356E909DB7A4B955E1 /* MBMapKitGoogleStyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBMapKitGoogleStyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88EBBB43F78F74867D0642AF1177DD0 /* MBMapKitGoogleStyler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBMapKitGoogleStyler-dummy.m"; sourceTree = "<group>"; };
+		E11510ED1AB1B93042622CBB7BE411B5 /* Pods_MBMapKitGoogleStyler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MBMapKitGoogleStyler_Tests.framework; path = "Pods-MBMapKitGoogleStyler_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E402E392D6C69A356E909DB7A4B955E1 /* MBMapKitGoogleStyler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBMapKitGoogleStyler.framework; path = MBMapKitGoogleStyler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89AFCDD13D63F60858FC6148F988C77 /* Pods-MBMapKitGoogleStyler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBMapKitGoogleStyler_Example-resources.sh"; sourceTree = "<group>"; };
 		F9A3ABC444FE4CE9AC7489DB563DF076 /* Pods-MBMapKitGoogleStyler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBMapKitGoogleStyler_Example-umbrella.h"; sourceTree = "<group>"; };
 		FCD627E011DC5F4C4BCB1FE72245EF6B /* Pods-MBMapKitGoogleStyler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBMapKitGoogleStyler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -113,11 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD4DF3B674B4CC248DDB7AAA372A1E95 /* Frameworks */ = {
+		A6814BD28D88A4120EAF33A4695B07C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0983418C69DCCE4CF0E0C2A749AAC000 /* Foundation.framework in Frameworks */,
+				B303117F74E442B4F7DC2BBBE2143335 /* Foundation.framework in Frameworks */,
+				4F9C7BD449F8213730168CBC76374512 /* MapKit.framework in Frameworks */,
+				D79ED7B7798D179B6A9470E2987449B8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +127,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D8C6F2402ECFA465C0F1DA4645473EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D8C6F2402ECFA465C0F1DA4645473EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				56F2ED3CDAE5D2928456AF5EDDDE4257 /* Foundation.framework */,
+				17E061A876F428A8E8C9F0CD173365A7 /* MapKit.framework */,
+				D1899DF19920E20BF9EE667803725971 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1E6CCF91D80F0937F32509AD7E55D21D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0836EB028FA8E3DEA555749CEC025CDD /* Info.plist */,
+				6BB3CF28F6FA35DD23C51031300A8042 /* MBMapKitGoogleStyler.modulemap */,
+				7D81AB6DC42DD4767DDA2DBE857C85B6 /* MBMapKitGoogleStyler.xcconfig */,
+				B9C6B8CBCB06051D93529BCE2FF0AC98 /* MBMapKitGoogleStyler-dummy.m */,
+				D4F92B6B33AB8B9E80E54767F9251E5F /* MBMapKitGoogleStyler-prefix.pch */,
+				A59DFEFD275751B63FF308609CEDD54D /* MBMapKitGoogleStyler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MBMapKitGoogleStyler";
+			sourceTree = "<group>";
+		};
+		3F65F57D7EF7C77F0D27DA22B118A64C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CEDAEC6302BA849C1EC1651159D68138 /* LICENSE */,
+				00BE04477B5C58775E680EC65B448DE3 /* MBMapKitGoogleStyler.podspec */,
+				5E01CB71DB9B2A2AB54E8FC7E86F6063 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		4386FF8D6376B6FF59BF33F6FD22B946 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,14 +177,6 @@
 				E11510ED1AB1B93042622CBB7BE411B5 /* Pods_MBMapKitGoogleStyler_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		4A9C6649CC6115B4B211C4A9FFA214C9 /* Pods-MBMapKitGoogleStyler_Example */ = {
@@ -169,39 +197,15 @@
 			path = "Target Support Files/Pods-MBMapKitGoogleStyler_Example";
 			sourceTree = "<group>";
 		};
-		776C8DA483941E9CBAF5D6579D724890 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8FFADB4E573FB0D7BA233A4A6BCBF1F5 /* MBMapKitGoogleStyler */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				776C8DA483941E9CBAF5D6579D724890 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B4A1B376DB783B7116103F304149FFDF /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				4386FF8D6376B6FF59BF33F6FD22B946 /* Products */,
 				052824E76CEFEFF82DA80F7543EA2685 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8FFADB4E573FB0D7BA233A4A6BCBF1F5 /* MBMapKitGoogleStyler */ = {
-			isa = PBXGroup;
-			children = (
-				4C9144C421C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h */,
-				4C9144C521C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m */,
-				4C9144CC21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h */,
-				4C9144CD21C31E8100A2E9B0 /* MBMapKitGoogleStyle.m */,
-				4C9144D421C31E9A00A2E9B0 /* MBMapKitMapStyle.h */,
-				4C9144D521C31E9A00A2E9B0 /* MBMapKitMapStyle.m */,
-				B2D9D7821ACEF3C7DF1E90ACA1C7D729 /* Pod */,
-				F916A49A4CAC55DBF7EC22CE30DB5461 /* Support Files */,
-			);
-			name = MBMapKitGoogleStyler;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B14FDD89D72401B8C18F184F85373C69 /* Pods-MBMapKitGoogleStyler_Tests */ = {
@@ -222,60 +226,38 @@
 			path = "Target Support Files/Pods-MBMapKitGoogleStyler_Tests";
 			sourceTree = "<group>";
 		};
-		B2D9D7821ACEF3C7DF1E90ACA1C7D729 /* Pod */ = {
+		B4A1B376DB783B7116103F304149FFDF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9E59B549AEE1886651BE2DB49A42DBF2 /* LICENSE */,
-				1131D5A4B163BAD9ECF08D8A57D8ED64 /* MBMapKitGoogleStyler.podspec */,
-				C29F446BF14B2230C5551ED4FCB194D9 /* README.md */,
+				EC5BEF69ABA2FE84D181D4D1666B2CAB /* MBMapKitGoogleStyler */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		EC5BEF69ABA2FE84D181D4D1666B2CAB /* MBMapKitGoogleStyler */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				4946E1B5E5C6B57DD0DCAD489B6690E1 /* MBMapKitGoogleStyle.h */,
+				581B01F7AA4169937123B16AC9CC734D /* MBMapKitGoogleStyle.m */,
+				A86C308F1944ED1DBE0ABA8E5A7832B0 /* MBMapKitGoogleStyler.h */,
+				0C3ED5058FEA5B243DD1B15BD9E43051 /* MBMapKitGoogleStyler.m */,
+				0D2CAA62AFFFBA988BF09941FF6D2398 /* MBMapKitMapStyle.h */,
+				6993596B37C65CCF5D2645D63DE21966 /* MBMapKitMapStyle.m */,
+				3F65F57D7EF7C77F0D27DA22B118A64C /* Pod */,
+				1E6CCF91D80F0937F32509AD7E55D21D /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F916A49A4CAC55DBF7EC22CE30DB5461 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD8330E6BAC62F3990DD504EBD703E40 /* Info.plist */,
-				1B52993B648ADD0D9F5963810550A01C /* MBMapKitGoogleStyler.modulemap */,
-				01D9CA7919BE1006B8D35A24C83EAA60 /* MBMapKitGoogleStyler.xcconfig */,
-				F88EBBB43F78F74867D0642AF1177DD0 /* MBMapKitGoogleStyler-dummy.m */,
-				1E99EA7BDBC897968CD63B8146514CF0 /* MBMapKitGoogleStyler-prefix.pch */,
-				11897FAC4D7F8989C1D36B59E006A890 /* MBMapKitGoogleStyler-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MBMapKitGoogleStyler";
+			name = MBMapKitGoogleStyler;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		21B66347B899A8EBA381F1A189A7DBC2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C9144D621C31E9A00A2E9B0 /* MBMapKitMapStyle.h in Headers */,
-				2FB82F18165F6845BFA229A9DD15B032 /* MBMapKitGoogleStyler-umbrella.h in Headers */,
-				4C9144CE21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h in Headers */,
-				4C9144C621C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A5F2B17D027A06DF3843A5DC3715DCB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9144D821C31E9A00A2E9B0 /* MBMapKitMapStyle.h in Headers */,
 				12D242E5C3F1E062876BE77704E75B2D /* Pods-MBMapKitGoogleStyler_Tests-umbrella.h in Headers */,
-				4C9144D021C31E8100A2E9B0 /* MBMapKitGoogleStyle.h in Headers */,
-				4C9144C821C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,24 +265,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9144D721C31E9A00A2E9B0 /* MBMapKitMapStyle.h in Headers */,
 				DF812DA78EAB19729C713AD60436868A /* Pods-MBMapKitGoogleStyler_Example-umbrella.h in Headers */,
-				4C9144CF21C31E8100A2E9B0 /* MBMapKitGoogleStyle.h in Headers */,
-				4C9144C721C31E5F00A2E9B0 /* MBMapKitGoogleStyler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD010DF3C5B28953EFDFE2DB293C501A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A20B9F75C04114FE1C94BEA3D1CC0D8 /* MBMapKitGoogleStyle.h in Headers */,
+				8E405429C97CD87B5BB24A33DB97663E /* MBMapKitGoogleStyler-umbrella.h in Headers */,
+				574DEB0F8B52B64839A10C5E6645AC3B /* MBMapKitGoogleStyler.h in Headers */,
+				3B75BE9264C816F1831A52297819645A /* MBMapKitMapStyle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0B2EA37785A2BC89287FC76D83B6CB12 /* MBMapKitGoogleStyler */ = {
+		6FCCD30517C5D4A3C829E6679FD3AE79 /* MBMapKitGoogleStyler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B825C253E65805055624FBA76D056D61 /* Build configuration list for PBXNativeTarget "MBMapKitGoogleStyler" */;
+			buildConfigurationList = BD8AADBEBD8606F05DD5C2E3EE88D7D6 /* Build configuration list for PBXNativeTarget "MBMapKitGoogleStyler" */;
 			buildPhases = (
-				21B66347B899A8EBA381F1A189A7DBC2 /* Headers */,
-				C2757D8B1386341B9D3600F2178B6CD0 /* Sources */,
-				FD4DF3B674B4CC248DDB7AAA372A1E95 /* Frameworks */,
-				630BDDDACFF83AF83D24939E18609B04 /* Resources */,
+				BD010DF3C5B28953EFDFE2DB293C501A /* Headers */,
+				4552B90C39FAA7D99720CA61335A1E73 /* Sources */,
+				A6814BD28D88A4120EAF33A4695B07C0 /* Frameworks */,
+				D1801C37F989C45A3380768C34DD9175 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -370,7 +360,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B2EA37785A2BC89287FC76D83B6CB12 /* MBMapKitGoogleStyler */,
+				6FCCD30517C5D4A3C829E6679FD3AE79 /* MBMapKitGoogleStyler */,
 				9AD33D525C62B3277F408B3920C80F33 /* Pods-MBMapKitGoogleStyler_Example */,
 				CE9EBFCBABF19A852FD473A91DB03649 /* Pods-MBMapKitGoogleStyler_Tests */,
 			);
@@ -385,7 +375,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		630BDDDACFF83AF83D24939E18609B04 /* Resources */ = {
+		D1801C37F989C45A3380768C34DD9175 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,10 +396,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9144CA21C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m in Sources */,
-				4C9144DA21C31E9A00A2E9B0 /* MBMapKitMapStyle.m in Sources */,
-				4C9144D221C31E8100A2E9B0 /* MBMapKitGoogleStyle.m in Sources */,
 				606CB6BC12EEC46B7A6AC777EBA67793 /* Pods-MBMapKitGoogleStyler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4552B90C39FAA7D99720CA61335A1E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F56B05577DDB3894F94A03FB55D580 /* MBMapKitGoogleStyle.m in Sources */,
+				FB21C6173A00827638726FB0C0E52E6E /* MBMapKitGoogleStyler-dummy.m in Sources */,
+				ED2D85EEBC6AC34344C1CD05D7D21645 /* MBMapKitGoogleStyler.m in Sources */,
+				8DB49AF17D40F67CC41B6D8A914B46CE /* MBMapKitMapStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,21 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9144CB21C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m in Sources */,
-				4C9144DB21C31E9A00A2E9B0 /* MBMapKitMapStyle.m in Sources */,
-				4C9144D321C31E8100A2E9B0 /* MBMapKitGoogleStyle.m in Sources */,
 				F9DBF4D77D32B165E3A4666DB62F675F /* Pods-MBMapKitGoogleStyler_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2757D8B1386341B9D3600F2178B6CD0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39A590100078426614B22CDD7497E92F /* MBMapKitGoogleStyler-dummy.m in Sources */,
-				4C9144C921C31E5F00A2E9B0 /* MBMapKitGoogleStyler.m in Sources */,
-				4C9144D121C31E8100A2E9B0 /* MBMapKitGoogleStyle.m in Sources */,
-				4C9144D921C31E9A00A2E9B0 /* MBMapKitMapStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +431,7 @@
 		F26E648CF6CC28B5C946067E3F43F74E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBMapKitGoogleStyler;
-			target = 0B2EA37785A2BC89287FC76D83B6CB12 /* MBMapKitGoogleStyler */;
+			target = 6FCCD30517C5D4A3C829E6679FD3AE79 /* MBMapKitGoogleStyler */;
 			targetProxy = F3388CFBC8C7CB45A4A0F0246675F17C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -521,6 +505,36 @@
 			};
 			name = Release;
 		};
+		3FAA44756DF98DA100B1C5EBB679CBD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D81AB6DC42DD4767DDA2DBE857C85B6 /* MBMapKitGoogleStyler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBMapKitGoogleStyler/MBMapKitGoogleStyler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBMapKitGoogleStyler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBMapKitGoogleStyler/MBMapKitGoogleStyler.modulemap";
+				PRODUCT_MODULE_NAME = MBMapKitGoogleStyler;
+				PRODUCT_NAME = MBMapKitGoogleStyler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6092BAE8BAE0728DEE16B20DCFDF7439 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7F40CB02814E0E06EF40C301AF8911C1 /* Pods-MBMapKitGoogleStyler_Tests.debug.xcconfig */;
@@ -553,67 +567,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6A73CE4AB8CCF9F72711E910D60877A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01D9CA7919BE1006B8D35A24C83EAA60 /* MBMapKitGoogleStyler.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBMapKitGoogleStyler/MBMapKitGoogleStyler-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBMapKitGoogleStyler/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBMapKitGoogleStyler/MBMapKitGoogleStyler.modulemap";
-				PRODUCT_MODULE_NAME = MBMapKitGoogleStyler;
-				PRODUCT_NAME = MBMapKitGoogleStyler;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6DA8DB614241203268C5E246DA51F86B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01D9CA7919BE1006B8D35A24C83EAA60 /* MBMapKitGoogleStyler.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBMapKitGoogleStyler/MBMapKitGoogleStyler-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBMapKitGoogleStyler/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBMapKitGoogleStyler/MBMapKitGoogleStyler.modulemap";
-				PRODUCT_MODULE_NAME = MBMapKitGoogleStyler;
-				PRODUCT_NAME = MBMapKitGoogleStyler;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -670,7 +623,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -775,6 +729,37 @@
 			};
 			name = Debug;
 		};
+		AC4D3FD976F05D292FD0A8536EB2BB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D81AB6DC42DD4767DDA2DBE857C85B6 /* MBMapKitGoogleStyler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBMapKitGoogleStyler/MBMapKitGoogleStyler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBMapKitGoogleStyler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBMapKitGoogleStyler/MBMapKitGoogleStyler.modulemap";
+				PRODUCT_MODULE_NAME = MBMapKitGoogleStyler;
+				PRODUCT_NAME = MBMapKitGoogleStyler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -805,11 +790,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B825C253E65805055624FBA76D056D61 /* Build configuration list for PBXNativeTarget "MBMapKitGoogleStyler" */ = {
+		BD8AADBEBD8606F05DD5C2E3EE88D7D6 /* Build configuration list for PBXNativeTarget "MBMapKitGoogleStyler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A73CE4AB8CCF9F72711E910D60877A4 /* Debug */,
-				6DA8DB614241203268C5E246DA51F86B /* Release */,
+				3FAA44756DF98DA100B1C5EBB679CBD3 /* Debug */,
+				AC4D3FD976F05D292FD0A8536EB2BB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
