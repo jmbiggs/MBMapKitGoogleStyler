@@ -31,17 +31,17 @@ To easily get styling on an MKMapView:
 4. Make sure your view controller is a MKMapViewDelegate, and implement -mapViewrendererForOverlay
 
     Interface declaration:
-        ```objective-c
+    ```objective-c
         @interface MBViewController () <MKMapViewDelegate>
-        ```
+    ```
 
     Set delegate on MKMapView (in -viewDidLoad):
-        ```objective-c
+    ```objective-c
         [_mapView setDelegate:self];
-        ```
+    ```
 
     Implement delegate method:
-        ```objective-c
+    ```objective-c
         - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
         {
             MKTileOverlay * tileOverlay = (MKTileOverlay*)overlay;
@@ -51,7 +51,7 @@ To easily get styling on an MKMapView:
                 return [[MKOverlayRenderer alloc] initWithOverlay:overlay];
             }
         }
-        ```
+    ```
 
 5. Write a function to add the tile overlay to your Map View (make sure you import the JSON file as you named it)
     ```objective-c
@@ -66,10 +66,10 @@ To easily get styling on an MKMapView:
     ```
 
     Call it after setting the delegate (-viewDidLoad):
-        ```objective-c
+    ```objective-c
         [_mapView setDelegate:self];
         [self configureTileOverlay];
-        ```
+    ```
 
 ## Requirements
 
